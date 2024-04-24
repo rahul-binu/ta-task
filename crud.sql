@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 18, 2024 at 09:01 PM
+-- Generation Time: Apr 24, 2024 at 12:13 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.2.4
 
@@ -20,8 +20,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `crud`
 --
-
-CREATE DATABASE crud;
 
 -- --------------------------------------------------------
 
@@ -40,9 +38,39 @@ CREATE TABLE `crud` (
 --
 
 INSERT INTO `crud` (`id`, `name`, `description`) VALUES
-(1, 'pen', 'Description of pen'),
+(1, 'pen', 'good pen'),
 (2, 'lap', 'mylap'),
 (3, 'keyboard', 'my keyboard');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `duplicate_count`
+--
+
+CREATE TABLE `duplicate_count` (
+  `id` int(11) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `count` int(11) NOT NULL DEFAULT 1
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `users`
+--
+
+CREATE TABLE `users` (
+  `id` int(11) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `first_name` varchar(255) NOT NULL,
+  `last_name` varchar(255) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `users`
+--
+
 
 --
 -- Indexes for dumped tables
@@ -55,6 +83,20 @@ ALTER TABLE `crud`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `duplicate_count`
+--
+ALTER TABLE `duplicate_count`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `unique_email` (`email`);
+
+--
+-- Indexes for table `users`
+--
+ALTER TABLE `users`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `email` (`email`);
+
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -63,6 +105,12 @@ ALTER TABLE `crud`
 --
 ALTER TABLE `crud`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+
+--
+-- AUTO_INCREMENT for table `duplicate_count`
+--
+ALTER TABLE `duplicate_count`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=66;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
