@@ -1,0 +1,298 @@
+CRITICAL - 2024-04-18 17:48:02 --> ErrorException: Undefined variable $items
+[Method: GET, Route: crudcontroller]
+in APPPATH\Views\crud.php on line 40.
+ 1 APPPATH\Views\crud.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\xampp\\htdocs\\crud\\app\\Views\\crud.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud\\app\\Views\\crud.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('crud', [], true)
+ 5 APPPATH\Controllers\CrudController.php(10): view('crud')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 17:51:26 --> ErrorException: Undefined variable $items
+[Method: GET, Route: crudcontroller]
+in APPPATH\Views\crud.php on line 40.
+ 1 APPPATH\Views\crud.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\xampp\\htdocs\\crud\\app\\Views\\crud.php', 40)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud\\app\\Views\\crud.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('crud', [], true)
+ 5 APPPATH\Controllers\CrudController.php(10): view('crud')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 17:54:01 --> Error: Class "App\Models\ItemModel" not found
+[Method: GET, Route: crudcontroller]
+in APPPATH\Views\crud.php on line 32.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('crud', [], true)
+ 4 APPPATH\Controllers\CrudController.php(10): view('crud')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 17:54:25 --> ErrorException: Undefined variable $items
+[Method: GET, Route: crudcontroller]
+in APPPATH\Views\crud.php on line 41.
+ 1 APPPATH\Views\crud.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $items', 'C:\\xampp\\htdocs\\crud\\app\\Views\\crud.php', 41)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud\\app\\Views\\crud.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('crud', [], true)
+ 5 APPPATH\Controllers\CrudController.php(10): view('crud')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 17:54:45 --> ErrorException: Undefined variable $item
+[Method: GET, Route: crudcontroller]
+in APPPATH\Views\crud.php on line 61.
+ 1 APPPATH\Views\crud.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\crud\\app\\Views\\crud.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud\\app\\Views\\crud.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('crud', [], true)
+ 5 APPPATH\Controllers\CrudController.php(10): view('crud')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 17:54:59 --> ErrorException: Undefined variable $item
+[Method: GET, Route: crudcontroller]
+in APPPATH\Views\crud.php on line 61.
+ 1 APPPATH\Views\crud.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $item', 'C:\\xampp\\htdocs\\crud\\app\\Views\\crud.php', 61)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud\\app\\Views\\crud.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('crud', [], true)
+ 5 APPPATH\Controllers\CrudController.php(10): view('crud')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 17:57:00 --> Error: Class "App\Models\ItemModel" not found
+[Method: GET, Route: crudcontroller]
+in APPPATH\Views\crud.php on line 54.
+ 1 SYSTEMPATH\View\View.php(234): include()
+ 2 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('crud', [], true)
+ 4 APPPATH\Controllers\CrudController.php(10): view('crud')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->index()
+ 6 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 7 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 18:10:25 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "crud/index.php"
+[Method: GET, Route: crudcontroller]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('crud/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('crud/index', [], true)
+ 3 APPPATH\Controllers\CrudController.php(20): view('crud/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 18:11:48 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "crud/index.php"
+[Method: GET, Route: crudcontroller]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('crud/index.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('crud/index', [], true)
+ 3 APPPATH\Controllers\CrudController.php(20): view('crud/index', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->index()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-18 18:38:43 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\crud\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\crud\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\crud\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\crud\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\crud\app\Controllers\CrudController.php(36): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\crud\system\CodeIgniter.php(933): App\Controllers\CrudController->store()
+#9 C:\xampp\htdocs\crud\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#10 C:\xampp\htdocs\crud\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crud\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\crud\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-04-18 18:38:43 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+[Method: POST, Route: crudcontroller/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `crud` (`name`, `description`) VALUES (:name:, :description:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\CrudController.php(36): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 18:38:43 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `crud` (`name`, `description`) VALUES (\'dfvghbjn\', \'cfvgbh\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `crud` (`name`, `description`) VALUES (\'dfvghbjn\', \'cfvgbh\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `crud` (`name`, `description`) VALUES (:name:, :description:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\CrudController.php(36): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 18:38:43 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `crud` (`name`, `description`) VALUES (\'dfvghbjn\', \'cfvgbh\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `crud` (`name`, `description`) VALUES (\'dfvghbjn\', \'cfvgbh\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `crud` (`name`, `description`) VALUES (\'dfvghbjn\', \'cfvgbh\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `crud` (`name`, `description`) VALUES (:name:, :description:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CrudController.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-04-18 18:39:05 --> mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY' in C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php:308
+Stack trace:
+#0 C:\xampp\htdocs\crud\system\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `cr...', 0)
+#1 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cr...')
+#2 C:\xampp\htdocs\crud\system\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cr...')
+#3 C:\xampp\htdocs\crud\system\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cr...', Array, false)
+#4 C:\xampp\htdocs\crud\system\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\crud\system\BaseModel.php(840): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\crud\system\Model.php(791): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\crud\app\Controllers\CrudController.php(36): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\crud\system\CodeIgniter.php(933): App\Controllers\CrudController->store()
+#9 C:\xampp\htdocs\crud\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+#10 C:\xampp\htdocs\crud\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud\system\Boot.php(312): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crud\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\crud\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-04-18 18:39:05 --> CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+[Method: POST, Route: crudcontroller/store]
+in SYSTEMPATH\Database\BaseConnection.php on line 676.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `crud` (`name`, `description`) VALUES (:name:, :description:)', [...], false)
+ 2 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\CrudController.php(36): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->store()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 18:39:05 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 313.
+ 1 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `crud` (`name`, `description`) VALUES (\'pen\', \'good\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `crud` (`name`, `description`) VALUES (\'pen\', \'good\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `crud` (`name`, `description`) VALUES (:name:, :description:)', [...], false)
+ 4 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\CrudController.php(36): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->store()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 18:39:05 --> [Caused by] mysqli_sql_exception: Duplicate entry '0' for key 'PRIMARY'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 308.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(308): mysqli->query('INSERT INTO `crud` (`name`, `description`) VALUES (\'pen\', \'good\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(722): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `crud` (`name`, `description`) VALUES (\'pen\', \'good\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(636): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `crud` (`name`, `description`) VALUES (\'pen\', \'good\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2325): CodeIgniter\Database\BaseConnection->query('INSERT INTO `crud` (`name`, `description`) VALUES (:name:, :description:)', [...], false)
+ 5 SYSTEMPATH\Model.php(383): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(840): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(791): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\CrudController.php(36): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->store()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 18:48:47 --> ArgumentCountError: Too few arguments to function App\Controllers\CrudController::update(), 0 passed in C:\xampp\htdocs\crud\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: crudcontroller/update]
+in APPPATH\Controllers\CrudController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 18:50:33 --> ArgumentCountError: Too few arguments to function App\Controllers\CrudController::update(), 0 passed in C:\xampp\htdocs\crud\system\CodeIgniter.php on line 933 and exactly 1 expected
+[Method: POST, Route: crudcontroller/update]
+in APPPATH\Controllers\CrudController.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->update()
+ 2 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 3 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 18:52:38 --> ParseError: syntax error, unexpected token "{", expecting "function" or "const"
+[Method: GET, Route: crudcontroller]
+in APPPATH\Controllers\CrudController.php on line 43.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('crudcontroller', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('crudcontroller')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('crudcontroller')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 18:52:46 --> ParseError: syntax error, unexpected token "{", expecting "function" or "const"
+[Method: GET, Route: crudcontroller]
+in APPPATH\Controllers\CrudController.php on line 43.
+ 1 SYSTEMPATH\Router\Router.php(562): CodeIgniter\Router\AutoRouter->getRoute('crudcontroller', 'GET')
+ 2 SYSTEMPATH\Router\Router.php(227): CodeIgniter\Router\Router->autoRoute('crudcontroller')
+ 3 SYSTEMPATH\CodeIgniter.php(834): CodeIgniter\Router\Router->handle('crudcontroller')
+ 4 SYSTEMPATH\CodeIgniter.php(457): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 5 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-04-18 18:54:09 --> ErrorException: Undefined variable $i
+[Method: GET, Route: crudcontroller]
+in APPPATH\Views\crud.php on line 83.
+ 1 APPPATH\Views\crud.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $i', 'C:\\xampp\\htdocs\\crud\\app\\Views\\crud.php', 83)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud\\app\\Views\\crud.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('crud', [], true)
+ 5 APPPATH\Controllers\CrudController.php(20): view('crud', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\CrudController->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\CrudController))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(312): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
